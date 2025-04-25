@@ -24,6 +24,7 @@ const App = () => {
   return (
     <main>
       <section>
+        <div className="logo chatgpt-style">WebLLM</div>
         <div className="conversation-area">
           <div className="messages">
             {messages.map((msg, idx) => {
